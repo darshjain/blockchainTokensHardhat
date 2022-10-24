@@ -2,9 +2,46 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "C:\\Users\\Darsh Jain\\Desktop\\PROJECT FOLDER\\Blockchain APP DEV\\hardhat-tutorial\\contracts\\Token.sol": {
-      "lastModificationDate": 1666511349847,
-      "contentHash": "932ababf1237f3e90f50930bdfbffcc6",
+      "lastModificationDate": 1666606792872,
+      "contentHash": "57a632a15569d642391f9cae1c5b7a7f",
       "sourceName": "contracts/Token.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Token"
+      ]
+    },
+    "C:\\Users\\Darsh Jain\\Desktop\\PROJECT FOLDER\\Blockchain APP DEV\\hardhat-tutorial\\node_modules\\hardhat\\console.sol": {
+      "lastModificationDate": 1666451014250,
+      "contentHash": "4ff3cd2f6272c9a6516e9ee4f2b967d3",
+      "sourceName": "hardhat/console.sol",
       "solcConfig": {
         "version": "0.8.17",
         "settings": {
@@ -30,10 +67,10 @@
       },
       "imports": [],
       "versionPragmas": [
-        ">=0.5.0 <0.9.0"
+        ">= 0.4.22 <0.9.0"
       ],
       "artifacts": [
-        "Token"
+        "console"
       ]
     }
   }
